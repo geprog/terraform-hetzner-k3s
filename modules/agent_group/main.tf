@@ -1,5 +1,5 @@
 data "hcloud_image" "ubuntu" {
-  name = "ubuntu-20.04"
+  name = "ubuntu-22.04"
 }
 
 resource "random_pet" "agent_suffix" {
